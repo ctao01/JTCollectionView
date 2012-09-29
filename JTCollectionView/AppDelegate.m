@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import "JTViewController.h"
+
 
 @implementation AppDelegate
 
@@ -16,6 +18,12 @@
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
+    
+    JTViewController * jtViewController = [[JTViewController alloc]init];
+    
+    self.navigationController = [[UINavigationController alloc]initWithRootViewController:jtViewController];
+    self.window.rootViewController = self.navigationController;
+    
     return YES;
 }
 

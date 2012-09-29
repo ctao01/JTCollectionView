@@ -16,6 +16,22 @@
 		7E036D541613A41A009DE619 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E036D531613A41A009DE619 /* Default.png */; };
 		7E036D561613A41A009DE619 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E036D551613A41A009DE619 /* Default@2x.png */; };
 		7E036D581613A41A009DE619 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E036D571613A41A009DE619 /* Default-568h@2x.png */; };
+		7E036D681613B5C4009DE619 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E036D671613B5C4009DE619 /* QuartzCore.framework */; };
+		7E74C02C1614F4B8008D86F0 /* JTCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E74C02B1614F4B8008D86F0 /* JTCell.m */; };
+		7E74C0341614FB80008D86F0 /* JTCollectionViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E74C0331614FB73008D86F0 /* JTCollectionViewLayout.m */; };
+		7E74C0561615E177008D86F0 /* bin.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7E74C04A1615E177008D86F0 /* bin.jpg */; };
+		7E74C0571615E177008D86F0 /* century.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7E74C04B1615E177008D86F0 /* century.jpg */; };
+		7E74C0581615E177008D86F0 /* gecko.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7E74C04C1615E177008D86F0 /* gecko.jpg */; };
+		7E74C0591615E177008D86F0 /* joy.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 7E74C04D1615E177008D86F0 /* joy.jpeg */; };
+		7E74C05A1615E177008D86F0 /* joyce.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7E74C04E1615E177008D86F0 /* joyce.jpg */; };
+		7E74C05B1615E177008D86F0 /* keira.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7E74C04F1615E177008D86F0 /* keira.jpg */; };
+		7E74C05C1615E177008D86F0 /* mei.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7E74C0501615E177008D86F0 /* mei.jpg */; };
+		7E74C05D1615E177008D86F0 /* mimi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7E74C0511615E177008D86F0 /* mimi.jpg */; };
+		7E74C05E1615E177008D86F0 /* nyu.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7E74C0521615E177008D86F0 /* nyu.jpg */; };
+		7E74C05F1615E177008D86F0 /* ray.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7E74C0531615E177008D86F0 /* ray.jpg */; };
+		7E74C0601615E177008D86F0 /* shi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7E74C0541615E177008D86F0 /* shi.jpg */; };
+		7E74C0611615E177008D86F0 /* wen.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7E74C0551615E177008D86F0 /* wen.jpg */; };
+		7EAA79C71614E125009E8257 /* JTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EAA79C61614E125009E8257 /* JTViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +48,25 @@
 		7E036D531613A41A009DE619 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		7E036D551613A41A009DE619 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		7E036D571613A41A009DE619 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		7E036D671613B5C4009DE619 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		7E74C02A1614F4B8008D86F0 /* JTCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTCell.h; sourceTree = "<group>"; };
+		7E74C02B1614F4B8008D86F0 /* JTCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTCell.m; sourceTree = "<group>"; };
+		7E74C0321614FB73008D86F0 /* JTCollectionViewLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JTCollectionViewLayout.h; sourceTree = "<group>"; };
+		7E74C0331614FB73008D86F0 /* JTCollectionViewLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JTCollectionViewLayout.m; sourceTree = "<group>"; };
+		7E74C04A1615E177008D86F0 /* bin.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bin.jpg; sourceTree = "<group>"; };
+		7E74C04B1615E177008D86F0 /* century.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = century.jpg; sourceTree = "<group>"; };
+		7E74C04C1615E177008D86F0 /* gecko.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gecko.jpg; sourceTree = "<group>"; };
+		7E74C04D1615E177008D86F0 /* joy.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = joy.jpeg; sourceTree = "<group>"; };
+		7E74C04E1615E177008D86F0 /* joyce.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = joyce.jpg; sourceTree = "<group>"; };
+		7E74C04F1615E177008D86F0 /* keira.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = keira.jpg; sourceTree = "<group>"; };
+		7E74C0501615E177008D86F0 /* mei.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mei.jpg; sourceTree = "<group>"; };
+		7E74C0511615E177008D86F0 /* mimi.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mimi.jpg; sourceTree = "<group>"; };
+		7E74C0521615E177008D86F0 /* nyu.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nyu.jpg; sourceTree = "<group>"; };
+		7E74C0531615E177008D86F0 /* ray.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ray.jpg; sourceTree = "<group>"; };
+		7E74C0541615E177008D86F0 /* shi.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = shi.jpg; sourceTree = "<group>"; };
+		7E74C0551615E177008D86F0 /* wen.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wen.jpg; sourceTree = "<group>"; };
+		7EAA79C51614E125009E8257 /* JTViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTViewController.h; sourceTree = "<group>"; };
+		7EAA79C61614E125009E8257 /* JTViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,9 +74,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E036D681613B5C4009DE619 /* QuartzCore.framework in Frameworks */,
+				7E036D461613A419009DE619 /* CoreGraphics.framework in Frameworks */,
 				7E036D421613A419009DE619 /* UIKit.framework in Frameworks */,
 				7E036D441613A419009DE619 /* Foundation.framework in Frameworks */,
-				7E036D461613A419009DE619 /* CoreGraphics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +104,7 @@
 		7E036D401613A419009DE619 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				7E036D671613B5C4009DE619 /* QuartzCore.framework */,
 				7E036D411613A419009DE619 /* UIKit.framework */,
 				7E036D431613A419009DE619 /* Foundation.framework */,
 				7E036D451613A419009DE619 /* CoreGraphics.framework */,
@@ -78,9 +115,16 @@
 		7E036D471613A419009DE619 /* JTCollectionView */ = {
 			isa = PBXGroup;
 			children = (
+				7E74C0491615E168008D86F0 /* Assets */,
 				7E036D501613A41A009DE619 /* AppDelegate.h */,
 				7E036D511613A41A009DE619 /* AppDelegate.m */,
 				7E036D481613A419009DE619 /* Supporting Files */,
+				7EAA79C51614E125009E8257 /* JTViewController.h */,
+				7EAA79C61614E125009E8257 /* JTViewController.m */,
+				7E74C02A1614F4B8008D86F0 /* JTCell.h */,
+				7E74C02B1614F4B8008D86F0 /* JTCell.m */,
+				7E74C0321614FB73008D86F0 /* JTCollectionViewLayout.h */,
+				7E74C0331614FB73008D86F0 /* JTCollectionViewLayout.m */,
 			);
 			path = JTCollectionView;
 			sourceTree = "<group>";
@@ -97,6 +141,25 @@
 				7E036D571613A41A009DE619 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7E74C0491615E168008D86F0 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				7E74C04A1615E177008D86F0 /* bin.jpg */,
+				7E74C04B1615E177008D86F0 /* century.jpg */,
+				7E74C04C1615E177008D86F0 /* gecko.jpg */,
+				7E74C04D1615E177008D86F0 /* joy.jpeg */,
+				7E74C04E1615E177008D86F0 /* joyce.jpg */,
+				7E74C04F1615E177008D86F0 /* keira.jpg */,
+				7E74C0501615E177008D86F0 /* mei.jpg */,
+				7E74C0511615E177008D86F0 /* mimi.jpg */,
+				7E74C0521615E177008D86F0 /* nyu.jpg */,
+				7E74C0531615E177008D86F0 /* ray.jpg */,
+				7E74C0541615E177008D86F0 /* shi.jpg */,
+				7E74C0551615E177008D86F0 /* wen.jpg */,
+			);
+			name = Assets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -154,6 +217,18 @@
 				7E036D541613A41A009DE619 /* Default.png in Resources */,
 				7E036D561613A41A009DE619 /* Default@2x.png in Resources */,
 				7E036D581613A41A009DE619 /* Default-568h@2x.png in Resources */,
+				7E74C0561615E177008D86F0 /* bin.jpg in Resources */,
+				7E74C0571615E177008D86F0 /* century.jpg in Resources */,
+				7E74C0581615E177008D86F0 /* gecko.jpg in Resources */,
+				7E74C0591615E177008D86F0 /* joy.jpeg in Resources */,
+				7E74C05A1615E177008D86F0 /* joyce.jpg in Resources */,
+				7E74C05B1615E177008D86F0 /* keira.jpg in Resources */,
+				7E74C05C1615E177008D86F0 /* mei.jpg in Resources */,
+				7E74C05D1615E177008D86F0 /* mimi.jpg in Resources */,
+				7E74C05E1615E177008D86F0 /* nyu.jpg in Resources */,
+				7E74C05F1615E177008D86F0 /* ray.jpg in Resources */,
+				7E74C0601615E177008D86F0 /* shi.jpg in Resources */,
+				7E74C0611615E177008D86F0 /* wen.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -164,8 +239,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E74C0341614FB80008D86F0 /* JTCollectionViewLayout.m in Sources */,
 				7E036D4E1613A419009DE619 /* main.m in Sources */,
 				7E036D521613A41A009DE619 /* AppDelegate.m in Sources */,
+				7EAA79C71614E125009E8257 /* JTViewController.m in Sources */,
+				7E74C02C1614F4B8008D86F0 /* JTCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,6 +351,7 @@
 				7E036D5D1613A41A009DE619 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
