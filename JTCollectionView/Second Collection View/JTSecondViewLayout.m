@@ -1,28 +1,29 @@
 //
-//  CollectionViewLayout.m
-//  CollectionViewExample
+//  JTSecondViewLayout.m
+//  JTCollectionView
 //
-//  Created by Paul Dakessian on 9/6/12.
-//  Copyright (c) 2012 Paul Dakessian, CapTech Consulting. All rights reserved.
+//  Created by Joy Tao on 10/2/12.
+//  Copyright (c) 2012 Joy Tao. All rights reserved.
 //
 
-#import "JTCollectionViewLayout.h"
+#import "JTSecondViewLayout.h"
 
-@implementation JTCollectionViewLayout
+@implementation JTSecondViewLayout
 
 -(id)init
 {
     self = [super init];
     if (self) {
-        
-        self.itemSize = CGSizeMake(150.0f, 150.0f);
+        self.
+        self.itemSize = CGSizeMake(70.0f, 70.0f);
         self.scrollDirection = UICollectionViewScrollDirectionVertical;
-        self.minimumInteritemSpacing = 10.0f;
-        self.minimumLineSpacing = 10.0f;
+        self.minimumInteritemSpacing = 8.0f;
+        self.minimumLineSpacing = 8.0f;
+        self.sectionInset = UIEdgeInsetsMake(5.0f, 0.0f, 5.0f, 0.0f);
+        
     }
     return self;
 }
-
 
 - (BOOL)shouldInvalidateLayoutForBoundsChange:(CGRect)oldBounds
 {
@@ -39,7 +40,7 @@
     return array;
 }
 
- 
+
 - (CGPoint)targetContentOffsetForProposedContentOffset:(CGPoint)proposedContentOffset withScrollingVelocity:(CGPoint)velocity
 {
     CGFloat offsetAdjustment = MAXFLOAT;
@@ -56,5 +57,6 @@
     }
     return CGPointMake(proposedContentOffset.x + offsetAdjustment, proposedContentOffset.y);
 }
+
 
 @end

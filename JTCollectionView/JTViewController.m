@@ -10,6 +10,9 @@
 #import "JTCell.h"
 #import "JTCollectionViewLayout.h"
 
+#import "JTSecondViewController.h"
+#import "JTSecondViewLayout.h"
+
 @interface JTViewController ()
 
 @property (nonatomic , strong) NSArray * groupCollection;
@@ -33,7 +36,7 @@
     [super viewDidLoad];
     
     self.navigationController.navigationBar.barStyle = UIBarStyleBlackOpaque;
-    self.navigationItem.title = @"Collection View Demo";
+    self.navigationItem.title = @"Collection View";
     
     UIBarButtonItem * otherItem = [[UIBarButtonItem alloc]initWithTitle:@"other" style:UIBarButtonItemStyleBordered target:self action:@selector(gotoOtherCollectionView)];
     self.navigationItem.rightBarButtonItem = otherItem;
@@ -84,6 +87,11 @@
 - (void) gotoOtherCollectionView
 {
     // TODO: Another Collection View
+    JTSecondViewLayout * layout = [[JTSecondViewLayout alloc]init];
+    JTSecondViewController * secondCollectionView = [[JTSecondViewController alloc]initWithCollectionViewLayout:layout];
+    
+//    JTSecondViewController * secondCollectionView = [[JTSecondViewController alloc]init];
+    [self.navigationController pushViewController:secondCollectionView animated:YES];
 }
 
 #pragma mark - UICollectionView DataSource Method
@@ -105,7 +113,6 @@
 - (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath
 {
     JTCell * jtCell = (JTCell*)[collectionView dequeueReusableCellWithReuseIdentifier:@"JTCell" forIndexPath:indexPath];
-    jtCell.cellTitleLable.text = [NSString stringWithFormat:@"cell%d",indexPath.item];
 //    jtCell.itemTitleLabel.text = [NSString stringWithFormat:@"%d",indexPath.item];
     NSArray * array = [self.groupCollection objectAtIndex:indexPath.section];
     
