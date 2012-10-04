@@ -34,6 +34,10 @@
 		7E74C079161B5849008D86F0 /* JTSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E74C078161B5849008D86F0 /* JTSecondViewController.m */; };
 		7E74C07C161B598E008D86F0 /* JTSecondViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E74C07B161B598E008D86F0 /* JTSecondViewLayout.m */; };
 		7E74C07F161B5DCA008D86F0 /* JTSecondCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E74C07E161B5DCA008D86F0 /* JTSecondCell.m */; };
+		7E74C0FF161CD8D2008D86F0 /* JTHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E74C0FE161CD8D1008D86F0 /* JTHeaderView.m */; };
+		7E74C106161D25FC008D86F0 /* divider_bar.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E74C104161D25FC008D86F0 /* divider_bar.png */; };
+		7E74C107161D25FC008D86F0 /* divider_bar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E74C105161D25FC008D86F0 /* divider_bar@2x.png */; };
+		7E74C10A161D273C008D86F0 /* JTFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E74C109161D273B008D86F0 /* JTFooterView.m */; };
 		7EAA79C71614E125009E8257 /* JTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EAA79C61614E125009E8257 /* JTViewController.m */; };
 /* End PBXBuildFile section */
 
@@ -74,6 +78,12 @@
 		7E74C07B161B598E008D86F0 /* JTSecondViewLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JTSecondViewLayout.m; path = "Second Collection View/JTSecondViewLayout.m"; sourceTree = "<group>"; };
 		7E74C07D161B5DCA008D86F0 /* JTSecondCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JTSecondCell.h; path = "Second Collection View/JTSecondCell.h"; sourceTree = "<group>"; };
 		7E74C07E161B5DCA008D86F0 /* JTSecondCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JTSecondCell.m; path = "Second Collection View/JTSecondCell.m"; sourceTree = "<group>"; };
+		7E74C0FD161CD8D1008D86F0 /* JTHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTHeaderView.h; sourceTree = "<group>"; };
+		7E74C0FE161CD8D1008D86F0 /* JTHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTHeaderView.m; sourceTree = "<group>"; };
+		7E74C104161D25FC008D86F0 /* divider_bar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = divider_bar.png; sourceTree = "<group>"; };
+		7E74C105161D25FC008D86F0 /* divider_bar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "divider_bar@2x.png"; sourceTree = "<group>"; };
+		7E74C108161D273A008D86F0 /* JTFooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTFooterView.h; sourceTree = "<group>"; };
+		7E74C109161D273B008D86F0 /* JTFooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTFooterView.m; sourceTree = "<group>"; };
 		7EAA79C51614E125009E8257 /* JTViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTViewController.h; sourceTree = "<group>"; };
 		7EAA79C61614E125009E8257 /* JTViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -124,6 +134,7 @@
 		7E036D471613A419009DE619 /* JTCollectionView */ = {
 			isa = PBXGroup;
 			children = (
+				7E74C0B1161CD2BD008D86F0 /* Vendor */,
 				7E74C0491615E168008D86F0 /* Assets */,
 				7E036D501613A41A009DE619 /* AppDelegate.h */,
 				7E036D511613A41A009DE619 /* AppDelegate.m */,
@@ -151,6 +162,8 @@
 		7E74C0491615E168008D86F0 /* Assets */ = {
 			isa = PBXGroup;
 			children = (
+				7E74C104161D25FC008D86F0 /* divider_bar.png */,
+				7E74C105161D25FC008D86F0 /* divider_bar@2x.png */,
 				7E74C04A1615E177008D86F0 /* bin.jpg */,
 				7E74C04B1615E177008D86F0 /* century.jpg */,
 				7E74C04C1615E177008D86F0 /* gecko.jpg */,
@@ -189,8 +202,19 @@
 				7E74C07B161B598E008D86F0 /* JTSecondViewLayout.m */,
 				7E74C07D161B5DCA008D86F0 /* JTSecondCell.h */,
 				7E74C07E161B5DCA008D86F0 /* JTSecondCell.m */,
+				7E74C0FD161CD8D1008D86F0 /* JTHeaderView.h */,
+				7E74C0FE161CD8D1008D86F0 /* JTHeaderView.m */,
+				7E74C108161D273A008D86F0 /* JTFooterView.h */,
+				7E74C109161D273B008D86F0 /* JTFooterView.m */,
 			);
 			name = "Second Collection View";
+			sourceTree = "<group>";
+		};
+		7E74C0B1161CD2BD008D86F0 /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Vendor;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,6 +284,8 @@
 				7E74C05F1615E177008D86F0 /* ray.jpg in Resources */,
 				7E74C0601615E177008D86F0 /* shi.jpg in Resources */,
 				7E74C0611615E177008D86F0 /* wen.jpg in Resources */,
+				7E74C106161D25FC008D86F0 /* divider_bar.png in Resources */,
+				7E74C107161D25FC008D86F0 /* divider_bar@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,6 +304,8 @@
 				7E74C079161B5849008D86F0 /* JTSecondViewController.m in Sources */,
 				7E74C07C161B598E008D86F0 /* JTSecondViewLayout.m in Sources */,
 				7E74C07F161B5DCA008D86F0 /* JTSecondCell.m in Sources */,
+				7E74C0FF161CD8D2008D86F0 /* JTHeaderView.m in Sources */,
+				7E74C10A161D273C008D86F0 /* JTFooterView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

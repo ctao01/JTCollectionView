@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface JTSecondViewController : UICollectionViewController <UICollectionViewDelegate , UIAlertViewDelegate>
+@interface JTSecondViewController : UICollectionViewController <UICollectionViewDelegateFlowLayout , UIAlertViewDelegate>
 
 @end

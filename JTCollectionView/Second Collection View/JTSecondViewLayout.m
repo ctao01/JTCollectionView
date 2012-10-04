@@ -16,10 +16,13 @@
     if (self) {
         self.
         self.itemSize = CGSizeMake(70.0f, 70.0f);
+        self.headerReferenceSize = CGSizeMake(0, 44.0f);
+        self.footerReferenceSize = CGSizeMake(0, 5.0f);
         self.scrollDirection = UICollectionViewScrollDirectionVertical;
         self.minimumInteritemSpacing = 8.0f;
         self.minimumLineSpacing = 8.0f;
-        self.sectionInset = UIEdgeInsetsMake(5.0f, 0.0f, 5.0f, 0.0f);
+        self.sectionInset = UIEdgeInsetsMake(5.0f, 2.0f, 10.0f, 2.0f);
+    
         
     }
     return self;
@@ -41,6 +44,9 @@
 }
 
 
+
+
+
 - (CGPoint)targetContentOffsetForProposedContentOffset:(CGPoint)proposedContentOffset withScrollingVelocity:(CGPoint)velocity
 {
     CGFloat offsetAdjustment = MAXFLOAT;
@@ -57,6 +63,27 @@
     }
     return CGPointMake(proposedContentOffset.x + offsetAdjustment, proposedContentOffset.y);
 }
+
+- (UICollectionViewLayoutAttributes *)layoutAttributesForSupplementaryViewOfKind:(NSString *)kind atIndexPath:(NSIndexPath *)indexPath
+{
+    UICollectionViewLayoutAttributes * attributes = [self layoutAttributesForSupplementaryViewOfKind:UICollectionElementKindSectionHeader atIndexPath:indexPath];
+        
+    return attributes;
+}
+
+
+//- (UICollectionViewLayoutAttributes*)layoutAttributesForItemAtIndexPath:(NSIndexPath *)indexPath
+//{
+//    NSLog(@"layoutAttributesForItemAtIndexPath");
+//    UICollectionViewLayoutAttributes * attributes = [self layoutAttributesForItemAtIndexPath:indexPath];
+//    if (indexPath.section %2 != 0)
+//        attributes.size = CGSizeMake(150.0f, 150.0f);
+//    else
+//        attributes.size = CGSizeMake(70.0f, 70.0f);
+//    
+//    return attributes;
+//}
+
 
 
 @end

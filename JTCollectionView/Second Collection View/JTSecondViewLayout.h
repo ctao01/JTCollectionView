@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface JTSecondViewLayout : UICollectionViewFlowLayout
+@interface JTSecondViewLayout : UICollectionViewFlowLayout 
 
 @end
